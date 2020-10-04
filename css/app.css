@@ -1,0 +1,135 @@
+#ql-toolbar button {
+    border: 1px solid #ddd;
+    width: 30px;
+    height: 26px;
+    cursor: pointer;
+    margin-left: 3px;
+    border-radius: 3px;
+}
+
+#ql-toolbar .seperator {
+    float: left;
+    display: inline-block;
+    width: 1px;
+    height: 24px;
+    background-color: #eee;
+    margin: 0 4px 0 7px;
+}
+
+.ql-editor {
+    height: 200px;
+}
+
+.ql-editor ol, .ql-editor ul {
+    padding-left: 0;
+}
+
+.ql-editor ul li:not(.ql-direction-rtl)::before {
+    text-align: left;
+}
+
+.ql-editor ul li::before {
+    width: 5px;
+}
+
+.ql-editor a {
+    cursor: pointer;
+}
+
+.ql-container {
+    padding-bottom: 12px;
+    font-family: Helvetica, Arial, sans-serif, 'Font Awesome 5 Free';
+}
+
+.ux-hilight {
+    background-color: yellow;
+}
+
+#ql-toolbar button[data-action] {
+    background: url('sprites.png') -0 -0;
+}
+
+#ql-toolbar button[data-action=align-center] {
+    background-position: -0 -0;
+}
+
+#ql-toolbar button[data-action=align-left] {
+    background-position: -28px -0;
+}
+
+#ql-toolbar button[data-action=align-right] {
+    background-position: -0 -24px;
+}
+
+#ql-toolbar button[data-action=blockquote] {
+    background-position: -28px -24px;
+}
+
+#ql-toolbar button[data-action=bold] {
+    background-position: -56px -0;
+}
+
+#ql-toolbar button[data-action=color] {
+    background-position: -56px -24px;
+}
+
+#ql-toolbar button[data-action=email] {
+    background-position: -0 -48px;
+}
+
+#ql-toolbar button[data-action=h1] {
+    background-position: -28px -48px;
+}
+
+#ql-toolbar button[data-action=h2] {
+    background-position: -56px -48px;
+}
+
+#ql-toolbar button[data-action=h3] {
+    background-position: -84px -0;
+}
+
+#ql-toolbar button[data-action=h4] {
+    background-position: -84px -24px;
+}
+
+#ql-toolbar button[data-action=hilight] {
+    background-position: -84px -48px;
+}
+
+#ql-toolbar button[data-action=italic] {
+    background-position: -0 -72px;
+}
+
+#ql-toolbar button[data-action=itallic] {
+    background-position: -28px -72px;
+}
+
+#ql-toolbar button[data-action=link] {
+    background-position: -56px -72px;
+}
+
+#ql-toolbar button[data-action=lorem-ipsum] {
+    background-position: -84px -72px;
+}
+
+#ql-toolbar button[data-action=ordered-list] {
+    background-position: -112px -0;
+}
+
+#ql-toolbar button[data-action=phone] {
+    background-position: -112px -24px;
+}
+
+#ql-toolbar button[data-action=remove-format] {
+    background-position: -112px -48px;
+}
+
+#ql-toolbar button[data-action=unordered-list] {
+    background-position: -112px -72px;
+}
+
+button .st0,
+button .st2 {
+    fill: #333;
+}
