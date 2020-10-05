@@ -1,13 +1,12 @@
-#ql-toolbar button {
-    border: 1px solid #ddd;
-    width: 30px;
-    height: 26px;
-    cursor: pointer;
+.ql-toolbar button {
+    border: 1px solid #ddd !important;
     margin-left: 3px;
     border-radius: 3px;
+    height: 26px !important;
+    width: 30px !important;
 }
 
-#ql-toolbar .seperator {
+.ql-toolbar .seperator {
     float: left;
     display: inline-block;
     width: 1px;
@@ -45,87 +44,87 @@
     background-color: yellow;
 }
 
-#ql-toolbar button[data-action] {
+.ql-toolbar button[data-action] {
     background: url('sprites.png') -0 -0;
 }
 
-#ql-toolbar button[data-action=align-center] {
+.ql-toolbar button[data-action=align-center] {
     background-position: -0 -0;
 }
 
-#ql-toolbar button[data-action=align-left] {
+.ql-toolbar button[data-action=align-left] {
     background-position: -28px -0;
 }
 
-#ql-toolbar button[data-action=align-right] {
+.ql-toolbar button[data-action=align-right] {
     background-position: -0 -24px;
 }
 
-#ql-toolbar button[data-action=blockquote] {
+.ql-toolbar button[data-action=blockquote] {
     background-position: -28px -24px;
 }
 
-#ql-toolbar button[data-action=bold] {
+.ql-toolbar button[data-action=bold] {
     background-position: -56px -0;
 }
 
-#ql-toolbar button[data-action=color] {
+.ql-toolbar button[data-action=color] {
     background-position: -56px -24px;
 }
 
-#ql-toolbar button[data-action=email] {
+.ql-toolbar button[data-action=email] {
     background-position: -0 -48px;
 }
 
-#ql-toolbar button[data-action=h1] {
+.ql-toolbar button[data-action=h1] {
     background-position: -28px -48px;
 }
 
-#ql-toolbar button[data-action=h2] {
+.ql-toolbar button[data-action=h2] {
     background-position: -56px -48px;
 }
 
-#ql-toolbar button[data-action=h3] {
+.ql-toolbar button[data-action=h3] {
     background-position: -84px -0;
 }
 
-#ql-toolbar button[data-action=h4] {
+.ql-toolbar button[data-action=h4] {
     background-position: -84px -24px;
 }
 
-#ql-toolbar button[data-action=hilight] {
+.ql-toolbar button[data-action=hilight] {
     background-position: -84px -48px;
 }
 
-#ql-toolbar button[data-action=italic] {
+.ql-toolbar button[data-action=italic] {
     background-position: -0 -72px;
 }
 
-#ql-toolbar button[data-action=itallic] {
+.ql-toolbar button[data-action=itallic] {
     background-position: -28px -72px;
 }
 
-#ql-toolbar button[data-action=link] {
+.ql-toolbar button[data-action=link] {
     background-position: -56px -72px;
 }
 
-#ql-toolbar button[data-action=lorem-ipsum] {
+.ql-toolbar button[data-action=lorem-ipsum] {
     background-position: -84px -72px;
 }
 
-#ql-toolbar button[data-action=ordered-list] {
+.ql-toolbar button[data-action=ordered-list] {
     background-position: -112px -0;
 }
 
-#ql-toolbar button[data-action=phone] {
+.ql-toolbar button[data-action=phone] {
     background-position: -112px -24px;
 }
 
-#ql-toolbar button[data-action=remove-format] {
+.ql-toolbar button[data-action=remove-format] {
     background-position: -112px -48px;
 }
 
-#ql-toolbar button[data-action=unordered-list] {
+.ql-toolbar button[data-action=unordered-list] {
     background-position: -112px -72px;
 }
 
